@@ -1,0 +1,181 @@
+body,p{margin:0;}
+ul{padding:0;margin:0}
+ul{list-style: none;}
+body{
+    background: #f6f6f6;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+html,body{ height: 100%;line-height: 1.5}
+/*关于我们*/
+.about_us{
+    height: 100%;
+    background: #fff;
+}
+.about_us header{
+    padding-top: 30px;
+    text-align: center;
+}
+.about_us header img{
+    width: 170px;
+}
+.about_us header p{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.about_us section{
+    padding: 20px;
+    margin: 10px 0;
+
+}
+.about_us section p{
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    color: #333;
+}
+.about_us footer{
+    text-align: center;
+    color: #666;
+}
+.about_us footer li{
+    width: 180px;
+    margin: 10px auto;
+    line-height: 24px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 30px;
+    background: #fff;
+    text-indent: 20px;
+}
+.about_us footer li:first-child{
+    background: url("../img/icon_web.png") no-repeat 7px center #fff;
+    background-size: 20px;
+}
+.about_us footer li:nth-child(2){
+    background: url("../img/icon_tel.png") no-repeat 7px center #fff;
+    background-size: 20px;
+}
+.about_us footer li:nth-child(3){
+    background: url("../img/icon_fax.png") no-repeat 7px center #fff;
+    background-size: 20px;
+}
+.about_us footer li:last-child{
+    background: url("../img/icon_email.png") no-repeat 7px center #fff;
+    background-size: 20px;
+}
+.about_us footer p{
+    margin-top: 40px;
+    color: #999;
+}
+/*产品介绍*/
+.introduce{
+    padding: 20px;
+    background: #fff;
+    font-size: 12px;
+}
+.introduce>section>header{
+    line-height: 40px;
+    text-indent: 14px;
+    position: relative;
+}
+.introduce>section>header:before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 12px;
+    background: #f2c63f;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+.introduce>p{
+    color: #666;
+}
+.introduce .character li{
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+    color: #666;
+    line-height: 30px;
+    text-indent: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.introduce .character li:before{
+    content: '';
+    display: block;
+    width: 28px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 14px;
+    background: url("../img/icon_character01.png") no-repeat center center;
+    background-size: 24px 24px;
+}
+.introduce .character li+li:before{
+    background: url("../img/icon_character02.png") no-repeat center center;
+    background-size: 24px 24px;
+}
+.introduce .character li+li+li:before{
+    background: url("../img/icon_character03.png") no-repeat center center;
+    background-size: 24px 24px;
+}
+.introduce .character li+li+li+li:before{
+    background: url("../img/icon_character04.png") no-repeat center center;
+    background-size: 24px 24px;
+}
+.introduce .advantage ul{
+    overflow: hidden;
+}
+.introduce .advantage li{
+    color: #666;
+    float: left;
+    width: 42%;
+    margin: 0 4% 15px 4%;
+}
+.introduce .advantage li p{
+    line-height: 24px;
+    box-sizing: border-box;
+    border: 3px solid #eee;
+    text-align: center;
+}
+.introduce .process li{
+    padding-left: 74px;
+    height: 70px;
+    position: relative;
+}
+.introduce .process li:before{
+    content: '';
+    display: block;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    background: url("../img/icon_step01.jpg") no-repeat center center;
+    background-size: contain;
+}
+.introduce .process li+li:before{
+    background: url("../img/icon_step02.jpg") no-repeat center center;
+    background-size: contain;
+}
+.introduce .process li+li+li:before{
+    background: url("../img/icon_step03.jpg") no-repeat center center;
+    background-size: contain;
+}
+.introduce .process li+li+li+li:before{
+    background: url("../img/icon_step04.jpg") no-repeat center center;
+    background-size: contain;
+}
+.introduce .process li h3{
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+}
+.introduce .process li p{
+    color: #666;
+}
